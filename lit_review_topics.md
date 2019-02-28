@@ -1,22 +1,53 @@
-# Topics
+# Outline
+
+
+## Introduction
+
+Paragraphs:
+- Physical activity and methods to measure it
+- Accelerometers
+- Acceleromters uses and brief calibration/validation considerations
 
 ---
 
-## Introduction
-### Physical activity
-- The importance and importance of measuring
-- Types of measures
-	+ Videos, questionnaires, pedometers, accelerometers, HR monitors...
+## Physical activity
+- Brief intro
+- The importance of it and importance of measuring it
+- Methods to measure physical activity
+	+ Direct observation, questionnaires, pedometers, HR monitors, accelerometers...
 - Disadvantages of these types of measures and measuring devices
-- Start writing about accelerometers
 
-### Accelerometers
+## Accelerometers
+- What is it and equipment characteristics
 - How (and with which characteristics) accelerometers overcame these other equipment disadvantages?
 - Advantages
 - Uses of accelerometers
-	+ Write about the themes of the experimental articles: energy expenditure (EE), physical activity intensities (PAI) and ground reaction forces (GRF)
+	+ Estimation of energy expenditure (EE) and classification of physical activity intensity (PAI)
+	+ Estimation of ground reaction forces (GRF)
+	+ Other uses: identification of postural sways, identification and classification of movement patterns...
 
-### Calibration and validation
-- Statistical and methodologic considerations
+## Calibration and validation
+- Methodologic considerations
+	+ Study design
+		* Sample
+		* Chosen activities
+		* Criterion measure
+- Statistical considerations
+	+ Relationship between accelerometer output (activity counts or other metrics) and the criterion measure
+	+ Internal and external validity
+	+ Cross-validation and out-of-sample performance
+
+## Accelerometers for EE estimation and PAI classification
+- History and main studies
+- Methodological advances
+- Accelerometer metrics (activity counts and raw acceleration-based metrics)
+- Existing methods for EE estimation and PAI classification
+- Literature gap
+
+## Accelerometers for GRF estimation
+- History and main studies
+- Methodological advances
+- Existing methos for GRF estimation
+- Literature gap
 
 ---

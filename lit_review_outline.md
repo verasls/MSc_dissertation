@@ -6,7 +6,7 @@
 Paragraphs:
 - Physical activity and methods to measure it
 - Accelerometers
-- Acceleromters uses and brief calibration/validation considerations
+- Accelerometers uses and brief calibration/validation considerations
 
 ---
 

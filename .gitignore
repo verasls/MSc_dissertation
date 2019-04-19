@@ -15,6 +15,7 @@
 
 *.pdf
 *.tiff
+*.docx
 
 highlight_colors.txt
 .Rproj.user

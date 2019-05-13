@@ -61,9 +61,9 @@ Some attention must be paid to certain methodological aspects of accelerometer c
 
 Second, since the accelerometer positioning on the body is one of the factors influencing its output, distinct calibration need to be done for each positioning \cite{Welk_2005}. Furthermore, as accelerometers output can also vary among different units of the same device, a calibration research should employ multiple monitors to allow this variability and avoid bias \cite{Welk_2005}. Finally, a wide range of PA, representing those usually performed by the target population, should be performed during calibration procedures \cite{Welk_2005, Basset_2012}. Additionally, these activities should also include lying, sitting and standing tasks and cover the entire range of intensities, from sedentary to vigorous PA \cite{Basset_2012}. \\
 
-Another key aspect of calibration studies is the statistical approach utilized. To translate the accelerometer output into an outcome variable (e.g., estimates of EE or GRF), a usual method is to develop a regression model, mostly a linear regression \cite{Montoye_2017}. 
+Another key aspect of calibration studies is the statistical approach utilized. To translate the accelerometer output into an outcome variable (e.g., estimates of EE or GRF), a usual method is to develop a regression model, mostly a linear regression \cite{Montoye_2017}. But, as the vast majority of calibration studies use multiple data points for each individual, they violate the linear regression assumption of independece \cite{Welk_2005, Field_2012}. One way to resolve this issue is to apply the linear mixed model (LMM) approach, which allow the repeated data to be modeled in the analysis \cite{Field_2012}. Also, mixed models have the benefit of permitting quadratic and cubic polynomial simulations to be tested \cite{Field_2012}. \\
 
-% repeated measures -> mixed model
+The advantages provided by the application of mixed models have made a significant contribution to the calibration studies, but nowadays more advanced methods are gaining popularity, such as machine learning approaches \cite{Welk_2005, Montoye_2017, Troiano_2014}. 
 
 \pagebreak
 

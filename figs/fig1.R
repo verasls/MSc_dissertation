@@ -24,6 +24,6 @@ arts_plot <- ggplot(data = articles_by_year) +
 
 # Uncomment lines below to save plot
 # ggsave(
-#   filename = "figs/fig1.tiff",
+#   filename = "figs/fig1.pdf",
 #   plot = arts_plot, width = 20, height = 10, dpi = 600, units = "cm"
 # )

@@ -11,6 +11,9 @@
 \setlength\parindent{1.25cm}
 \usepackage{tocloft}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand*\cftfigpresnum{\bfseries Figure~}
+\settowidth{\cftfignumwidth}{\cftfigpresnum}
+\renewcommand{\cftfigaftersnumb}{\quad--~}
 \usepackage{import}
 \usepackage[notocbib]{apacite}
 \usepackage{multibib}

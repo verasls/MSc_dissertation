@@ -9,6 +9,7 @@
 \setlength\parindent{1.25cm}
 \usepackage{import}
 \usepackage[notocbib]{apacite}
+\usepackage{graphicx}
 
 \def\blankpage{%
       \clearpage%
@@ -49,7 +50,7 @@
 
 
 \section*{\vfill\raggedleft\bfseries 1. General introduction}
-\addcontentsline{toc}{section}{General introduction}
+\addcontentsline{toc}{section}{1. General introduction}
 \thispagestyle{empty} 
 \pagebreak
 
@@ -64,6 +65,27 @@ Therefore, the purposes of this work were, first, to develop regression equation
 \pagebreak
 \renewcommand{\bibname}{\centerline{\bfseries\Large References}}
 \bibliography{general_introduction}
+\bibliographystyle{fadeup}
+\pagebreak
+
+\section*{\vfill\raggedleft\bfseries 2. Literature review}
+\addcontentsline{toc}{section}{2. Literature review}
+\thispagestyle{empty} 
+\pagebreak
+
+\section*{Introduction}
+
+Physical activity (PA) has long been established as one of the main contributors to prevent chronic diseases and promote health \cite{Kaminsky_2014, Warburton_2017}. Evidence shows that lack of PA leads to an increased risk of cardiovascular disease, diabetes, hypertension, osteoporosis, several types of cancer and a higher mortality risk \cite{Guthold_2018, Lee_2012, Shiroma_2014}. Given the relevant relationship between PA and health, there is an increasing need of accurate and reliable methods of PA assessment on daily life \cite{Montoye_2000, Plasqui_2013, Strath_2013}. These methods can be either subjective, such as questionnaires, or objective, as direct observation and wearable devices \cite{Strath_2013, Troiano_2005}.
+
+The most commonly used wearable devices to assess PA are accelerometers \cite{Strath_2013}. These are equipments that detect the body movement accelerations in one to three orthogonal planes (anteroposterior, mediolateral, and vertical) \cite{Chen_2005}. The accelerometers output can be either raw acceleration, usually expressed as gravitational acceleration units (\textit{g}), or activity counts (AC), which are processed data derived from the raw acceleration and are based on manufacturer-specific algorithm \cite{Chen_2005, Basset_2012, Troiano_2014}. In both cases, the accelerometer output needs to be translated into more biologically meaningful information through a calibration process \cite{Matthews_2005}.
+
+Currently, most calibration studies use the accelerometer output to determine energy expenditure (EE) and PA intensity levels \cite{Migueles_2017, Mendes_2018} but they can be also used to estimate biomechanical parameters, such as ground reaction forces (GRF) \cite{Neugebauer_2014, Fortune_2014}, to evaluate standing balance \cite{Mayagoitia_2002}, to detect the type of PA being performed \cite{Bonomi_2009, Zhang_2012}, among others. Apart from the standard measure against which the accelerometer output needs to be compared, calibration studies must carefully define the sample characteristics, PA protocols and statistical approaches, as these aspects can greatly influence the study internal and external validity \cite{Basset_2012, Welk_2005}. This led to the emergence of several different calibration studies in the literature with distinct methods to predict a given outcome variable \cite{Mendes_2018, Matthews_2018}.
+
+This current review aims to describe the literature regarding the use of accelerometers to measure EE, classify PA intensities and estimate GRF, as well as issues about calibration and validation studies of these wearable monitors. 
+
+\pagebreak
+\renewcommand{\bibname}{\centerline{\bfseries\Large References}}
+\bibliography{lit_review}
 \bibliographystyle{fadeup}
 \pagebreak
 

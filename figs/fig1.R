@@ -1,10 +1,11 @@
 # Load packages -----------------------------------------------------------
 
 library(tidyverse)
+library(here)
 
 # Read data ---------------------------------------------------------------
 
-articles_by_year <- read_csv("data/scopus_data.csv", skip = 7) %>% 
+articles_by_year <- read_csv(here("data", "scopus_data.csv"), skip = 7) %>% 
   select(
     year = YEAR,
     n    = X2

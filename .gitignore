@@ -13,8 +13,6 @@
 *.cb2
 .*.lb
 
-*.pdf
-*.tiff
 *.docx
 
 .Rproj.user
